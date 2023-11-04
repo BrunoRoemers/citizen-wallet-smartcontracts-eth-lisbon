@@ -57,18 +57,6 @@ const hhconfig: HardhatUserConfig = {
         network: "goerli",
         chainId: 5,
         urls: {
-          apiURL: "https://api.basescan.org/api",
-          browserURL: "https://basescan.org",
-        },
-      },
-      {
-        network: "celo",
-        chainId: 42220,
-        urls: {
-          apiURL: "https://api.celoscan.io/api",
-          browserURL: "https://celoscan.io",
-        },
-      },
           apiURL: "https://api-goerli.etherscan.io/api",
           browserURL: "https://goerli.etherscan.io"
         }
